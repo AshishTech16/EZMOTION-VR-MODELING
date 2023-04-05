@@ -1,0 +1,1118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+body {
+    margin: 0rem;
+    padding: 0rem;  
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+html{
+    font-size:62.5%;
+}
+.body-video video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Video video {
+    position: absolute;
+    top:20%;
+    right: 2%;
+    width: 70%;
+    height: 80%;
+    object-fit: cover;
+    z-index:-1;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -5rem;
+   
+}
+.nav-list li {  
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    color: whitesmoke;
+    margin-left: 4rem;
+    padding-right: 2.5rem;
+    font-family:SPHERE-FEZ;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+
+.nav .logo img {
+    width: 17rem;
+}
+.ezmeta img {
+position: relative;
+width: 100rem;
+height: auto;
+margin-top: -35rem;
+margin-left: -12.5rem;
+padding-left: 1.5rem;
+}
+.rectangle {
+    position: relative;
+    background-color: #42067B;
+    width: 100rem;
+    height: 15rem;
+    z-index: -1;
+    margin-top: -50rem;
+    opacity: 0.8;
+}
+.vr-image img{
+    width: 22%;
+    height:auto;
+    margin-top: -4.5%;
+    margin-left: 3%;
+}
+.Verse img{
+   margin-left:76.2rem;
+}
+.logo-para{
+    display: inline-flex;
+}
+.meta img{
+    width: 30rem;
+    height: 32rem;
+}
+.paragraph p{
+   display: inline-block;
+   color: whitesmoke;
+   width: 40rem;
+   letter-spacing: 1px;
+   line-height: 2.9;
+   font-family: sans-serif;
+
+}
+.Verse img{
+    margin-top: -30rem;
+    display: inline-block;
+}
+.hill img{
+    margin-top: -40rem;   
+    display: inline-block;
+}
+.AboutUs h1{
+   font-size: 4rem;
+   /* padding-left: 7rem; */
+   color: whitesmoke;
+   font-family:SPHERE-FEZ ;
+   margin-left: -85rem;
+}
+.OurTeam h1{
+    color: whitesmoke;
+    margin-left:20%;
+    font-weight: lighter;
+    letter-spacing: 0.5rem;
+    font-size: 6.8rem;
+    text-align: right;
+    margin-right: 4.5rem;
+    margin-top:-5rem;
+    line-height: 0.5;
+    font-family: SPHERE-FEZ;
+}
+.OurTeam-para h1{
+    color: whitesmoke;
+    font-weight: lighter;
+    font-size: 1.4rem;
+    width: 55rem;
+    margin-left: 70.1rem;
+    text-align: right;
+    margin-top:-0.5rem;
+    font-family: sans-serif;
+}
+.photo-frame img {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top:-35%;
+  }
+  .slideshow-container {
+    position: relative;
+    height: 40rem;
+    width: 60rem;
+    margin: auto;
+  }
+  
+  .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    margin-top:-130.5%;
+    margin-left:25.7%;
+    width: 30rem;
+    height: auto;
+  }
+  
+  .slide.active {
+    opacity: 1;
+  }
+  
+  .slide img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .caption {
+    position:relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    padding: 5rem;
+    margin-top:0.5rem;
+    margin-left: 1rem;
+    font-size: 2.2rem;
+    font-family: SPHERE-FEZ;
+  
+  }
+  .container {
+	max-width: 60rem;
+	margin: 0 auto;
+	padding: 2rem;
+	background-color:#42067B;
+	border-radius: 0.5rem;
+	box-shadow: 0 0 1 rem rgba(0, 0, 0, 0.2);
+    margin-top: -50%;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 3rem;
+    
+}
+.container h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-family: SPHERE-FEZ;
+    
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	margin-top: 20px;
+}
+
+input, textarea {
+	margin-top: 0.5rem;
+	padding: 1rem;
+	border-radius: 0.5rem;
+	border: none;
+	font-size: 1rem;
+}
+
+textarea {
+	height: 150px;
+}
+
+button {
+	background-color:purple;
+	color: #fff;
+	padding: 1rem;
+	border: none;
+	border-radius: 0.5rem;
+	cursor: pointer;
+	margin-top: 2rem;
+	font-size: 1.2rem;
+}
+button:hover {
+	background-color: #0069d9;
+}
+.font{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:larger;
+    font-weight: 550;
+    text-transform: uppercase;
+    color: whitesmoke; 
+}
+#scroll-to-top-btn {
+    display: none;
+    position: relative;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 99;
+    font-size: 1.6rem;
+    border: none;
+    outline: none;
+    background-color: #0069d9;
+    color: white;
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 100rem;
+    margin-left: 95%;
+  }
+  .insta img{
+    width: 7rem;
+    margin-left: 42%;
+    margin-top: 10%;
+  }
+  .twitter img{
+    width: 5rem;
+    height: 4rem;
+    margin-left: 4%;
+    margin-top: 0.1%;
+    margin-bottom: 2rem;
+  }
+  @media (max-width:400px){
+    html{
+        font-size: 55%;
+    }
+    body {
+        margin: 0px;
+        padding: 0px;  
+    }
+    
+    .body-video video {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .Video video {
+        position: absolute;
+        top:20%;
+        left: -30%;
+        width: 225%;
+        height: 70%;
+        object-fit: cover;
+        z-index:-1;
+        margin-left: 50rem;
+    }
+       .nav-list {
+        display: flex;
+        flex-direction: row;
+        margin-left: 230%;
+      }
+      
+      .nav-list li {
+        display: inline-block;
+        padding: 0 1rem 0.5rem;
+        text-decoration: none;
+        margin-left:12%;
+        text-align: right;
+
+      }
+      
+    .nav .logo img {
+        width: 17rem;
+    }
+    .ezmeta img {
+    position: relative;
+    width: 100rem;
+    height: auto;
+    margin-top: -25rem;
+    margin-left: -12.5rem;
+    }
+    .rectangle {
+        position: relative;
+        background-color: #42067B;
+        width: 100rem;
+        height: 15rem;
+        z-index: -1;
+        margin-top: -50rem;
+        opacity: 0.8;
+    }
+    .vr-image img{
+        width: 50%;
+        height:auto;
+        margin-top: 12%;
+        margin-left: 26%;
+    }
+    .Verse img{
+       margin-left:76.2rem;
+    }
+    .logo-para{
+        display: inline-flex;
+    }
+    .meta img{
+        width: 30rem;
+        height: 20rem;
+    }
+    .paragraph p{
+        display: inline-block;
+        color: whitesmoke;
+       width: 40rem;
+       letter-spacing: 0.1rem;
+       line-height: 1.3;
+       font-size:smaller;
+       font-family: sans-serif;
+       line-height: 2rem;
+    
+    }
+    .Verse img{
+        margin-top: -30rem;
+        display: inline-block;
+    }
+    .hill img{
+        margin-top: -40rem;   
+        display: inline-block;
+    }
+    .AboutUs h1{
+       font-size: 5rem;
+       padding-left: 2rem;
+       color: whitesmoke;
+       margin-left: 1rem;
+       width: 50rem;
+    }
+    .OurTeam h1{
+        color: whitesmoke;
+        margin-left:200%;
+        font-weight: lighter;
+        letter-spacing: 0.5rem;
+        font-size: 5rem;
+        text-align: right;
+        margin-right: 3rem;
+        margin-top:-3.5rem;
+        line-height: 0.5;
+        width: 50rem;
+    }
+    .OurTeam-para h1{
+        color: whitesmoke;
+        font-weight: lighter;
+        font-size: 1.5rem;
+        width: 60rem;
+        margin-left: 75rem;
+        text-align: right;
+        margin-top:-0.5rem;
+    }
+    .photo-frame img {
+        width: 335%;
+        height: auto;
+        box-sizing: border-box;
+        margin-top:-100%;
+
+      }
+      .slideshow-container {
+        position: relative;
+        height: 40rem;
+        width: 68.1rem;
+        margin: auto;
+      }
+      
+      .slide {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+        margin-top:-126%;
+        margin-left:76.5%;
+        width: 33.8rem;
+        height: auto;
+      }
+      
+      .slide.active {
+        opacity: 1;
+      }
+      
+      .slide img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        margin-left: 3rem;
+        margin-top: -2.5rem;
+      }
+      
+      .caption {
+        position:relative;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        color: white;
+        padding: 5rem;
+        margin-top:0.5rem;
+        margin-left: 5.5rem;
+        font-size: 2.2rem;
+      
+      }
+      .container {
+        width: 200%;
+        margin: 0 auto;
+        padding: 2rem;
+        background-color:#42067B;
+        border-radius: 0.5rem;
+        box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+        margin-top: -185%;
+        margin-left: 85%;
+    }
+    
+    h1 {
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+    .container h1{
+        font-size: 3rem;
+        font-family: 'Courier New', Courier, monospace;
+        text-transform: uppercase;
+        color: whitesmoke;
+                
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    label {
+        margin-top: 2rem;
+    }
+    
+    input, textarea {
+        margin-top: 0.5rem;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        border: none;
+        font-size: 1rem;
+    }
+    
+    textarea {
+        height: 15rem;
+    }
+    
+    button {
+        background-color:purple;
+        color: #fff;
+        padding: 1rem;
+        border: none;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        margin-top: 2rem;
+        font-size: 1.2rem;
+    }
+    button:hover {
+        background-color: #0069d9;
+    }
+    .font{
+        font-family: 'Courier New', Courier, monospace;
+        font-size:larger;
+        font-weight: 550;
+        text-transform: uppercase;
+        color: whitesmoke; 
+    }
+    #scroll-to-top-btn {
+        display: none;
+        position: relative;
+        bottom: 2rem;
+        right: 2rem;
+        z-index: 99;
+        font-size: 1.6rem;
+        border: none;
+        outline: none;
+        background-color: #0069d9;
+        color: white;
+        cursor: pointer;
+        padding: 1rem;
+        border-radius: 100rem;
+        margin-left: 330%;
+        width: 5rem;
+        height: auto;
+      }
+      .insta img{
+        width: 7rem;
+        margin-left: 150%;
+        margin-top: 10%;
+      }
+      .twitter img{
+        width: 5rem;
+        height: 4rem;
+        margin-left: 130%;
+        margin-top: -10%;
+        margin-bottom: 2rem;
+      } 
+
+  }
+
+  @media  (min-width:400px) and (max-width:600px){
+    html{
+        font-size: 55%;
+    }
+    body {
+        margin: 0px;
+        padding: 0px;  
+    }
+    
+    .body-video video {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .Video video {
+        position: absolute;
+        top:20%;
+        left: -30%;
+        width: 225%;
+        height: 70%;
+        object-fit: cover;
+        z-index:-1;
+        margin-left: 50rem;
+    }
+       .nav-list {
+        display: flex;
+        flex-direction: row;
+        margin-left: 200%;
+      }
+      
+      .nav-list li {
+        display: inline-block;
+        padding: 0 1rem 0.5rem;
+        text-decoration: none;
+        margin-left:12%;
+        text-align: right;
+
+      }
+      
+    .nav .logo img {
+        width: 17rem;
+    }
+    .ezmeta img {
+    position: relative;
+    width: 100rem;
+    height: auto;
+    margin-top: -15rem;
+    margin-left: -12.5rem;
+    }
+    .rectangle {
+        position: relative;
+        background-color: #42067B;
+        width: 100rem;
+        height: 15rem;
+        z-index: -1;
+        margin-top: -50rem;
+        opacity: 0.8;
+    }
+    .vr-image img{
+        width: 50%;
+        height:auto;
+        margin-top: 22%;
+        margin-left: 15%;
+    }
+    .Verse img{
+       margin-left:76.2rem;
+    }
+    .logo-para{
+        display: inline-flex;
+    }
+    .meta img{
+        width: 30rem;
+        height: 20rem;
+    }
+    .paragraph p{
+        display: inline-block;
+        color: whitesmoke;
+       width: 40rem;
+       letter-spacing: 0.1rem;
+       line-height: 1.3;
+       font-size:smaller;
+    
+    }
+    .Verse img{
+        margin-top: -30rem;
+        display: inline-block;
+    }
+    .hill img{
+        margin-top: -40rem;   
+        display: inline-block;
+    }
+    .AboutUs h1{
+       font-size: 5rem;
+       padding-left: 2rem;
+       color: whitesmoke;
+       margin-left: 1rem;
+       width: 50rem;
+    }
+    .OurTeam h1{
+        color: whitesmoke;
+        margin-left:200%;
+        font-weight: lighter;
+        letter-spacing: 0.5rem;
+        font-size: 5rem;
+        text-align: right;
+        margin-right: 3rem;
+        margin-top:-3.5rem;
+        line-height: 0.5;
+        width: 50rem;
+    }
+    .OurTeam-para h1{
+        color: whitesmoke;
+        font-weight: lighter;
+        font-size: 1.5rem;
+        width: 60rem;
+        margin-left: 85rem;
+        text-align: right;
+        margin-top:-0.5rem;
+    }
+    .photo-frame img {
+        width: 335%;
+        height: auto;
+        box-sizing: border-box;
+        margin-top:-100%;
+
+      }
+      .slideshow-container {
+        position: relative;
+        height: 40rem;
+        width: 68.1rem;
+        margin: auto;
+      }
+      
+      .slide {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+        margin-top:-130%;
+        margin-left:80.5%;
+        width: 33.8rem;
+        height: auto;
+      }
+      
+      .slide.active {
+        opacity: 1;
+      }
+      
+      .slide img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        margin-top: -7rem;
+        margin-left: 7rem;
+      }
+      
+      .caption {
+        position:relative;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        color: white;
+        padding: 5rem;
+        margin-top:5rem;
+        margin-left: 13rem;
+        font-size: 2.2rem;
+      
+      }
+      .container {
+        width: 300%;
+        margin: 0 auto;
+        padding: 2rem;
+        background-color:#42067B;
+        border-radius: 0.5rem;
+        box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+        margin-top: -150%;
+        margin-left: 100%;
+    }
+    
+    h1 {
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+    .container h1{
+        font-size: 3rem;
+        font-family: 'Courier New', Courier, monospace;
+        text-transform: uppercase;
+        color: whitesmoke;
+                
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    label {
+        margin-top: 2rem;
+    }
+    
+    input, textarea {
+        margin-top: 0.5rem;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        border: none;
+        font-size: 1rem;
+    }
+    
+    textarea {
+        height: 15rem;
+    }
+    
+    button {
+        background-color:purple;
+        color: #fff;
+        padding: 1rem;
+        border: none;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        margin-top: 2rem;
+        font-size: 1.2rem;
+    }
+    button:hover {
+        background-color: #0069d9;
+    }
+    .font{
+        font-family: 'Courier New', Courier, monospace;
+        font-size:larger;
+        font-weight: 550;
+        text-transform: uppercase;
+        color: whitesmoke; 
+    }
+    #scroll-to-top-btn {
+        display: none;
+        position: relative;
+        bottom: 2rem;
+        right: 2rem;
+        z-index: 99;
+        font-size: 1.6rem;
+        border: none;
+        outline: none;
+        background-color: #0069d9;
+        color: white;
+        cursor: pointer;
+        padding: 1rem;
+        border-radius: 100rem;
+        margin-left: 330%;
+        width: 5rem;
+        height: auto;
+      } 
+      .insta img{
+        width: 7rem;
+        margin-left: 150%;
+        margin-top: 10%;
+      }
+      .twitter img{
+        width: 5rem;
+        height: 4rem;
+        margin-left: 130%;
+        margin-top: -10%;
+        margin-bottom: 2rem;
+      }
+
+  }
+
+  @media(min-width:600px) and (max-width:1000px){
+    html{
+        font-size: 55%;
+    }
+    body {
+        margin: 0px;
+        padding: 0px;  
+    }
+    
+    .body-video video {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .Video video {
+        position: absolute;
+        top:20%;
+        left: 40%;
+        width: 225%;
+        height: 70%;
+        object-fit: cover;
+        z-index:-1;
+        margin-left: 50rem;
+    }
+       .nav-list {
+        display: flex;
+        flex-direction: row;
+        margin-left: 200%;
+        
+      }
+      
+      .nav-list li {
+        display: inline-block;
+        padding: 0 1rem 0.5rem;
+        text-decoration: none;
+        margin-left:12%;
+        text-align: right;
+        font-size: 3rem;
+        margin-left:10rem;
+      }
+      
+    .nav .logo img {
+        width: 25rem;
+    }
+    .ezmeta img {
+    position: relative;
+    width: 150rem;
+    height: auto;
+    margin-top: -40rem;
+    margin-left: -12.5rem;
+    }
+    .rectangle {
+        position: relative;
+        background-color: #42067B;
+        width: 120rem;
+        height: 25rem;
+        z-index: -1;
+        margin-top: -75rem;
+        opacity: 0.8;
+    }
+    .vr-image img{
+        width: 50%;
+        height:auto;
+        margin-top: -5%;
+        margin-left: 15%;
+    }
+    .Verse img{
+       margin-left:230rem;
+       width: 100rem;
+    }
+    .logo-para{
+        display: inline-flex;
+    }
+    .meta img{
+        width: 50rem;
+        height: 60rem;
+        margin-top: 5rem;
+    }
+    .paragraph p{
+       display: inline-block;
+       color: whitesmoke;
+       width: 80rem;
+       letter-spacing: 0.1rem;
+       line-height: 2;
+       font-size:1.9rem;
+       height: 50rem;
+       margin-top: 15rem;
+    
+    }
+    .Verse img{
+        margin-top: -30rem;
+        display: inline-block;
+    }
+    .hill img{
+        margin-top: -80rem;   
+        display: inline-block;
+        width: 100rem;
+        height: auto;
+        
+
+    }
+    .AboutUs h1{
+        font-size: 5rem;
+        padding-left: 2rem;
+        color: whitesmoke;
+        margin-left: 5rem;
+        width: 50rem;
+        font-size: 50px;
+     }
+    .OurTeam h1{
+        color: whitesmoke;
+        margin-left:280%;
+        font-weight: lighter;
+        letter-spacing: 0.5rem;
+        font-size: 5rem;
+        text-align: right;
+        margin-right: 3rem;
+        margin-top:-3.5rem;
+        line-height: 0.5;
+        width: 90rem;
+    }
+    .OurTeam-para h1{
+        color: whitesmoke;
+        font-weight: lighter;
+        font-size: 3.5rem;
+        width: 95rem;
+        margin-left: 242rem;
+        text-align: right;
+        margin-top:-0.5rem;
+        line-height: 5rem;
+    }
+    .photo-frame img {
+        width: 400%;
+        height: auto;
+        box-sizing: border-box;
+        margin-top:-100%;
+
+      }
+      .slideshow-container {
+        position: relative;
+        height: 40rem;
+        width: 68.1rem;
+        margin: auto;
+      }
+      
+      .slide {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+        margin-top:-200%;
+        margin-left:177.5%;
+        width: 75.8rem;
+        height: auto;
+      }
+      
+      .slide.active {
+        opacity: 1;
+      }
+      
+      .slide img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        margin-top: -300rem;
+        margin-left: 7rem;
+
+      }
+      
+      .caption {
+        position:relative;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        color: white;
+        padding: 5rem;
+        margin-top:25rem;
+        margin-left: 25rem;
+        font-size: 7rem;
+      
+      }
+      .container {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        padding: 2rem;
+        background-color:#42067B;
+        border-radius: 0.5rem;
+        box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+        margin-top: -120%;
+        margin-left: 170%;
+    }
+    
+    h1 {
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+    .container h1{
+        font-size: 3rem;
+        font-family: 'Courier New', Courier, monospace;
+        text-transform: uppercase;
+        color: whitesmoke;
+                
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    label {
+        margin-top: 2rem;
+    }
+    
+    input, textarea {
+        margin-top: 0.5rem;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        border: none;
+        font-size: 1rem;
+    }
+    
+    textarea {
+        height: 15rem;
+    }
+    
+    button {
+        background-color:purple;
+        color: #fff;
+        padding: 1rem;
+        border: none;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        margin-top: 2rem;
+        font-size: 1.2rem;
+    }
+    button:hover {
+        background-color: #0069d9;
+    }
+    .font{
+        font-family: 'Courier New', Courier, monospace;
+        font-size:larger;
+        font-weight: 550;
+        text-transform: uppercase;
+        color: whitesmoke; 
+    }
+    #scroll-to-top-btn {
+        display: none;
+        position: relative;
+        bottom: 2rem;
+        right: 2rem;
+        z-index: 99;
+        font-size: 1.6rem;
+        border: none;
+        outline: none;
+        background-color: #0069d9;
+        color: white;
+        cursor: pointer;
+        padding: 1rem;
+        border-radius: 100rem;
+        margin-left: 380%;
+        width: 5rem;
+        height: auto;
+      } 
+      .insta img{
+        width: 7rem;
+        margin-left: 175rem;
+        margin-top: 10%;
+      }
+      .twitter img{
+        width: 5rem;
+        height: 4rem;
+        margin-left: 165rem;
+        margin-top: -5%;
+        margin-bottom: 2rem;
+      }
+      /* .icons{
+        margin-left: 175rem;
+      } */
+  }
+
+
+  @font-face {
+    font-family:Disolve_regular;
+    src: url(./Fonts/Disolve_regular.ttf);
+  }
+  @font-face {
+    font-family:SPHERE-FEZ ;
+    src: url(./Fonts/SPHERE-FEZ.ttf);
+  }
